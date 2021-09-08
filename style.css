@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	margin: auto;
+	width: 75%;
+}
+
+/* .debug */
+.debug > main {
+	height: 500px;
+}
+
+.debug .row {
+	height: 500px;
+	background-color: red;
+}
+
+.debug .item {
+	height: 250px;
+	background-color: black;
+}
+/* /.debug */
+
+/* #main */
+.item {
+	float: left;
+	width: 100%;
+}
+/* /#main */
