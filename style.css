@@ -12,28 +12,99 @@
 
 body {
 	margin: auto;
-	width: 75%;
+	width: 70%;
+	background-color: black;
+}
+
+.container {
+	width: 100%;
+	height: 900px;
+	border: 1px solid black;
+	background-color: white;
+	margin-top: 4rem;
 }
 
 /* .debug */
-.debug > main {
-	height: 500px;
-}
-
-.debug .row {
-	height: 500px;
-	background-color: red;
+.debug > .container {
+	height: 900px;
 }
 
 .debug .item {
-	height: 250px;
-	background-color: black;
+	height: 450px;
 }
 /* /.debug */
 
-/* #main */
-.item {
-	float: left;
+/* .row_1 */
+/* .item_1 */
+.row_1 {
+	height: 450px;
 	width: 100%;
 }
-/* /#main */
+
+.item_1 {
+	width: 33%;
+	height: 100%;
+	margin: 0.5rem 0.1rem 0.5rem 5rem;
+}
+
+.image_1 {
+	height: 80%;
+	width: 50%;
+	position: relative;
+}
+
+#image_1_1 {
+	width: 100%;
+	height: 100%;
+}
+
+.discount {
+	background-color: #eb0037;
+	color: white;
+	position: absolute;
+	margin-right: 0.3rem;
+	width: 40px;
+	height: 20px;
+	top: 90%;
+	left: 0%;
+	text-align: center;
+	line-height: 20px;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.sustainability {
+	background-color: #00875a;
+	color: white;
+	margin-left: 0.3rem;
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	top: 90%;
+	left: 15%;
+	text-align: center;
+	line-height: 20px;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.heart {
+	color: black;
+	font-size: 3rem;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	margin-right: 0;
+	padding: 0.5rem 1rem;
+	background-color: white;
+}
+
+.text_1 {
+	text-align: left;
+	width: 100%;
+	height: 20%;
+	margin-bottom: 0;
+	margin-top: 0.5rem;
+}
+/* /.item_1 */
+/* /.row_1 */
